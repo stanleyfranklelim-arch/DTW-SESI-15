@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #666 !important;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* Products */
+.product-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+/* Form */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.15);
+}
+
+textarea {
+    resize: none;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 10px 25px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 20px;
+    border: none;
+}
+
+.modal-check {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto 15px;
+}
